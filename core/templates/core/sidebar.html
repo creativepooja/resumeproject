@@ -1,0 +1,18 @@
+{% load static %}
+<div class="border-right border-warning h-100">
+ <div class="text-center">
+    <img src="{% static 'core/images/girl.jpg'%}"alt="profilepic" class="img-fluid rounded-circle mt-5" wiidth="100px"
+    heght="100px ">
+    <h3 class="text-white mt-3 st-font">Neha varma</h3>
+ </div>  
+  <hr class="border-light"> 
+  <nav class="nav flex-column text-center">
+    <a class="nav-link  active " href="{% url 'home'%} ">Home</a>
+    <a class="nav-link" href="{% url 'service'%}">Services</a>
+    <a class="nav-link" href="{% url 'skill'%}">Skill</a>
+    <a class="nav-link" href="{% url 'contact'%}">Contact</a>
+  </nav>
+</div>
+
+
+
